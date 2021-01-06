@@ -1,0 +1,17 @@
+﻿@model ProductManagement.Models.Login
+@{
+    ViewBag.Title = "index";
+}
+
+<h4>Successfully Logged In </h4> 
+<label>@Html.ActionLink("Logout", "Logout", "Home")</label>
+
+<hr />
+<div>
+    @Html.ActionLink("Product List", "Index", "Home")
+</div>
+<hr />
+<div>
+    @Html.ActionLink("Add Product", "Create", "Home")
+</div>
+
